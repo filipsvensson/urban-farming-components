@@ -35,10 +35,10 @@ class ProgressBar extends Component {
   animate = () => {
     this.animationObj = { value: this.state.value };
 
-    // 100% progress animates in 1.5s, i,e 15ms per percent, but no less then 700ms
+    // 100% progress animates in 1.2s, i,e 12ms per percent, but no less then 700ms
     const duration = Math.max(
       Math.abs(Math.ceil(this.state.value) - Math.ceil(this.props.progress)) *
-        15,
+        12,
       700
     );
 

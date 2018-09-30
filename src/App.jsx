@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ProgressBar from "./ProgressBar";
+import ProgressBar2 from "./ProgressBar2";
 import Slider from "./Slider";
 import "./App.css";
 
@@ -20,8 +21,11 @@ class App extends Component {
     const { progress } = this.state;
 
     return (
-      <div className="App">
-        <ProgressBar progress={progress} />
+      <div className="app">
+        <div className="progress-bars">
+          <ProgressBar progress={progress} />
+          <ProgressBar2 progress={progress} />
+        </div>
         <div className="slider-container">
           <Slider value={progress} setValue={this.setProgressValue} />
         </div>

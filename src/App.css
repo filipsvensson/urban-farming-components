@@ -1,4 +1,23 @@
+.app {
+  padding: 2rem;
+}
+
+.progress-bars {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .slider-container {
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 35rem) {
+  .progress-bars {
+    flex-direction: row;
+  }
 }
