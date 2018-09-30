@@ -1,0 +1,47 @@
+.progress-container {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #603d52;
+}
+
+.progress-bar-info .progress-bar-info-value {
+  font-size: 2.6rem;
+  font-family: "Exo 2";
+  font-weight: 600;
+}
+
+.progress-bar-info .progress-bar-info-description {
+  font-size: 1rem;
+  font-family: Podkova;
+  color: #d75343;
+}
+
+.progress-bar {
+  transform: rotate(-90deg);
+}
+
+.progress-bar circle {
+  stroke-dashoffset: 0;
+  stroke: #b49e25;
+}
+
+.progress-bar .progress-value {
+  stroke: #603d52;
+  stroke-dashoffset: 452.3;
+}

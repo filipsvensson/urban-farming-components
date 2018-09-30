@@ -1,0 +1,29 @@
+.input-range {
+  width: 25rem !important;
+}
+
+.input-range__label.input-range__label--min,
+.input-range__label.input-range__label--max {
+  display: none;
+}
+
+.input-range__track {
+  border-radius: 0 !important;
+  height: 0.4rem !important;
+  background: #603d52 !important;
+}
+
+.input-range__slider {
+  margin-top: -0.75rem !important;
+  background: #603d52 !important;
+  border: 1px solid #603d52 !important;
+}
+
+.input-range__label--value {
+  top: -2.2rem !important;
+}
+
+.input-range__label {
+  color: #603d52 !important;
+  font-size: 1rem !important;
+}
